@@ -3,7 +3,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 
-
 import CubicBanner from "../components/CubicBanner";
 
 const knowledgeMap = [
@@ -54,25 +53,25 @@ const knowledgeMap = [
 ];
 
 const communityHighlights = [
-  {
-    title: "持续更新中",
-    meta: "@Community · 进行中",
-    description: "文档内容持续更新，跟随最新版本和社区动态。",
-  },
-  {
-    title: "开源协作",
-    meta: "@Contributors · 持续",
-    description: "欢迎通过 GitHub 提交建议、报告问题或贡献文档。",
-  },
-  {
-    title: "新手友好",
-    meta: "@Tutorial · 特点",
-    description: "从零开始，手把手教你搭建和运营 Minecraft 服务器。",
-  },
+    {
+        title: "持续更新中",
+        meta: "@Community · 进行中",
+        description: "文档内容持续更新，跟随最新版本和社区动态。"
+    },
+    {
+        title: "开源协作",
+        meta: "@Contributors · 持续",
+        description: "欢迎通过 GitHub 提交建议、报告问题或贡献文档。"
+    },
+    {
+        title: "新手友好",
+        meta: "@Tutorial · 特点",
+        description: "从零开始，手把手教你搭建和运营 Minecraft 服务器。"
+    }
 ];
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
+    const { siteConfig } = useDocusaurusContext();
 
   return (
     <Layout title={siteConfig.title} description={siteConfig.tagline}>

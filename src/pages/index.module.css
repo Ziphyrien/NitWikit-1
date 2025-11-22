@@ -1,46 +1,49 @@
 .page {
-  min-height: 100vh;
-  background: var(--ifm-background-color);
-  color: var(--ifm-font-color-base);
+    min-height: 100vh;
+    background: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
 }
 
 
 .primaryButton,
 .secondaryButton {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 22px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
 }
 
 .primaryButton {
-  background: var(--ifm-color-primary);
-  color: #fff !important;
-  box-shadow: 0 12px 24px rgba(37, 160, 110, 0.18);
+    background: var(--ifm-color-primary);
+    color: #fff !important;
+    box-shadow: 0 12px 24px rgba(37, 160, 110, 0.18);
 }
 
 .primaryButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 34px rgba(37, 160, 110, 0.24);
+    transform: translateY(-2px);
+    box-shadow: 0 18px 34px rgba(37, 160, 110, 0.24);
 }
 
 .secondaryButton {
-  background: rgba(37, 160, 110, 0.08);
-  color: var(--ifm-color-primary-dark) !important;
+    background: rgba(37, 160, 110, 0.08);
+    color: var(--ifm-color-primary-dark) !important;
 }
 
 .secondaryButton:hover {
-  background: rgba(37, 160, 110, 0.14);
-  transform: translateY(-2px);
+    background: rgba(37, 160, 110, 0.14);
+    transform: translateY(-2px);
 }
 
 html[data-theme="dark"] .secondaryButton {
-  background: rgba(46, 204, 113, 0.2);
-  color: #d9ffe9 !important;
+    background: rgba(46, 204, 113, 0.2);
+    color: #d9ffe9 !important;
 }
 
 .section {
