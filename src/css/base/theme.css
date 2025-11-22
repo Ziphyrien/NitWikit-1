@@ -1,10 +1,10 @@
 [data-theme='dark'] {
-  --primary: #36c085;
-  --primary-dark: #30b77c;
-  --primary-light: #4fd197;
-  --primary-alpha-light: rgba(54, 192, 133, 0.04);
-  --primary-alpha-medium: rgba(54, 192, 133, 0.08);
-  --primary-alpha-strong: rgba(54, 192, 133, 0.1);
+  --primary: #78909C;
+  --primary-dark: #546E7A;
+  --primary-light: #B0BEC5;
+  --primary-alpha-light: rgba(120, 144, 156, 0.04);
+  --primary-alpha-medium: rgba(120, 144, 156, 0.08);
+  --primary-alpha-strong: rgba(120, 144, 156, 0.1);
   --text-primary: #f7fafc;
   --text-secondary: #e2e8f0;
   --bg-light: #1E242C;
@@ -47,7 +47,7 @@
 }
 
 [data-theme='dark'] .card:hover {
-  border-color: rgba(54, 192, 133, 0.3);
+  border-color: rgba(120, 144, 156, 0.3);
 }
 
 [data-theme='dark'] .footer__copyright {

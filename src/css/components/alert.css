@@ -23,7 +23,7 @@
 }
 
 .alert--success {
-  --ifm-alert-border-color: #10b981;
+  --ifm-alert-border-color: var(--primary);
   --ifm-alert-color: var(--text-primary);
 }
 

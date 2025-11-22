@@ -18,7 +18,7 @@
 .card:hover {
   transform: translateY(-5px) scale(1.01);
   box-shadow: var(--shadow-md);
-  border-color: rgba(37, 160, 110, 0.3);
+  border-color: var(--primary);
 }
 
 a.card:not(.header-github-link):not(.github-icon-button)::after {

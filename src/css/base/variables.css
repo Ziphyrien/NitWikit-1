@@ -1,10 +1,10 @@
 :root {
-  --primary: #25a06e;
-  --primary-dark: #1c714e;
-  --primary-light: #36c085;
-  --primary-alpha-light: rgba(37, 160, 110, 0.04);
-  --primary-alpha-medium: rgba(37, 160, 110, 0.08);
-  --primary-alpha-strong: rgba(37, 160, 110, 0.1);
+  --primary: #546E7A;
+  --primary-dark: #37474F;
+  --primary-light: #78909C;
+  --primary-alpha-light: rgba(84, 110, 122, 0.04);
+  --primary-alpha-medium: rgba(84, 110, 122, 0.08);
+  --primary-alpha-strong: rgba(84, 110, 122, 0.1);
   
   --text-primary: #1a202c;
   --text-secondary: #4a5568;
