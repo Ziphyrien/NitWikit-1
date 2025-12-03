@@ -10,6 +10,11 @@ if (ExecutionEnvironment.canUseDOM) {
 
     // 获取导航栏高度
     function getNavbarHeight(): number {
+        // 如果是桌面端（垂直侧边栏布局），导航栏不占用顶部空间
+        if (window.matchMedia("(min-width: 997px)").matches) {
+            return 0;
+        }
+
         const navbar = document.querySelector<HTMLElement>(".navbar");
         if (navbar) {
             return navbar.offsetHeight;
